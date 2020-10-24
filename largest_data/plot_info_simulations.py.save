@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+
+data = pd.read_csv("fraccion_infectados_acumuladosYactivos.csv", index_col = 0)
+
+#data = pd.DataFrame(data,)
+
+data.plot(x = "tiempo", y = ["/home/jr2bg/Documents/masters/CIC/thesis/agent_based/largest_data/fraccion_infectados_acumuladosYactivos.csv",""])
+plt.show()
+
